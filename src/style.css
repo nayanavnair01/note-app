@@ -1,0 +1,10 @@
+body{font-family:Inter,Segoe UI,system-ui,Arial;background:#07101a;color:#eaf4fb;margin:0}
+.app{max-width:1000px;margin:20px auto;padding:16px}
+main{display:flex;gap:16px}
+.left{flex:1}
+.right{flex:1}
+input,textarea{width:100%;padding:8px;border-radius:6px;margin-bottom:8px}
+textarea{height:140px}
+ul{list-style:none;padding:0}
+li{background:rgba(255,255,255,0.02);padding:8px;border-radius:6px;margin-bottom:8px}
+button{background:#7dd3fc;border:0;padding:6px 8px;border-radius:6px}
