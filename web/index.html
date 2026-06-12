@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Noteapp — Web UI</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Noteapp</h1>
+    <p class="lead">A playful, cross-platform note UI (client-side)</p>
+  </header>
+
+  <main>
+    <section id="editor">
+      <input id="title" placeholder="Title" />
+      <textarea id="body" placeholder="Write your note..."></textarea>
+      <div class="actions">
+        <button id="add">Add Note</button>
+        <button id="export">Export JSON</button>
+        <button id="importBtn">Import JSON</button>
+        <input id="importFile" type="file" accept="application/json" style="display:none" />
+      </div>
+    </section>
+
+    <section id="notes">
+      <h2>Notes</h2>
+      <ul id="list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <small>Notes stored in browser localStorage. Static demo only.</small>
+  </footer>
+</body>
+</html>

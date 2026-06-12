@@ -1,0 +1,18 @@
+:root{--bg:#0f1720;--card:#142028;--accent:#7dd3fc;--muted:#94a3b8}
+*{box-sizing:border-box;font-family:Inter,Segoe UI,system-ui,Arial}
+body{margin:0;background:linear-gradient(180deg,var(--bg),#07101a);color:#e6eef6;min-height:100vh;display:flex;flex-direction:column}
+header{padding:24px;text-align:center}
+.lead{color:var(--muted);margin-top:-6px}
+main{display:flex;gap:24px;padding:16px;max-width:1000px;margin:0 auto;width:100%}
+#editor{flex:1;background:var(--card);padding:12px;border-radius:8px}
+#notes{flex:1;background:rgba(255,255,255,0.02);padding:12px;border-radius:8px}
+input,textarea{width:100%;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
+textarea{height:140px;margin-top:8px;resize:vertical}
+.actions{display:flex;gap:8px;margin-top:8px}
+button{background:var(--accent);border:0;padding:8px 10px;border-radius:6px;color:#022;cursor:pointer}
+ul{list-style:none;padding:0;margin:0}
+.note{padding:10px;border-radius:6px;background:rgba(255,255,255,0.02);margin-bottom:8px}
+.note h3{margin:0 0 6px 0}
+.meta{font-size:12px;color:var(--muted);margin-bottom:6px}
+.del{background:transparent;color:#fca5a5;border:1px solid rgba(255,255,255,0.03);padding:6px 8px;border-radius:6px;margin-top:8px}
+footer{margin-top:auto;padding:12px;text-align:center;color:var(--muted)}
